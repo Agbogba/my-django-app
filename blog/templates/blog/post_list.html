@@ -1,10 +1,9 @@
-<html>
-    <head>
-        <title>Armand's blog</title>
-    </head>
+{# members/templates/members/index.html #}
 
-    <body>
-        <p>Hi there! Hello</p>
-        <p>It works!</p>
-    </body>
-</html>
+{% extends 'layout.html' %}
+
+{% block title %}Accueil{% endblock title %}
+
+{% block content %}
+  <p>Bienvenue sur mon projet Django!</p>
+{% endblock content %}
