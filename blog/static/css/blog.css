@@ -10,6 +10,7 @@ body {
   /*background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");*/
   /*background-image: url("https://aim.asso.fr/upload/actualites/13e61ed8d0c51b95ddfaf3ae4aadb5b4.jpg");*/
   background-size: 150px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
