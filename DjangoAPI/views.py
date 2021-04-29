@@ -22,11 +22,11 @@ class CustomerView(viewsets.ModelViewSet):
 @api_view()
 def ShowStatus(request):
     try:
-        file1 = open("/media/armand/newhome/newhome/home/armand/DjangoApp/research/Encoder.sav", 'r')
+        file1 = open("/home/armand/Documents/my-django-app/research/Encoder.sav", 'r')
         encoder=pickle.load(file1)
-        file2 = open("/media/armand/newhome/newhome/home/armand/DjangoApp/research/Scaler.sav", 'r')
+        file2 = open("/home/armand/Documents/my-django-app/research/Scaler.sav", 'r')
         scaler=pickle.load(file2)
-        file3 = open("/media/armand/newhome/newhome/home/armand/DjangoApp/research/Prediction.sav", 'r')
+        file3 = open("/home/armand/Documents/my-django-app/research/Prediction.sav", 'r')
         model=pickle.load(file3)
         data=request.data
         unit=np.array(list(data.values()))

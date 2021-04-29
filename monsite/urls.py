@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
     path('DjangoAPI/', include('DjangoAPI.urls')),
+    path('accounts/', include('allauth.urls'))
+    #path('', include('core.urls', namespace='core'))
 ]
