@@ -1,5 +1,5 @@
-#Django~=2.2.4
-#djangorestframework
+Django~=2.2.4
+djangorestframework
 numpy
 sklearn
 pandas
