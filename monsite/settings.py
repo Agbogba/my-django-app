@@ -128,19 +128,17 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-#STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/blog/static'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-#MEDIA_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/media'
 
-
-#STATICFILES_DIRS = [
-#    os.path.join(BASE_DIR, 'static'),
-#]
 
 # Auth
 AUTHENTICATION_BACKENDS = [
@@ -155,13 +153,9 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
+#STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/static'
 
-#STATICFILES_DIRS = [
-#    os.path.join(BASE_DIR, "static"),
-#    '/var/www/static/',
-#]
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/blog/static'
+
 
