@@ -128,7 +128,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-#STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/static'
+STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/static'
 
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/blog/static'
@@ -151,7 +151,7 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
