@@ -133,8 +133,9 @@ STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/blog/static'
 
-#MEDIA_URL = '/media/'
+MEDIA_URL = '/media/'
 #MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/media'
 
 
 #STATICFILES_DIRS = [
@@ -155,9 +156,9 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 
 #STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
-#STATICFILES_DIRS = (
-#    os.path.join(BASE_DIR, "static"),
-#)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
 
 #STATICFILES_DIRS = [
 #    BASE_DIR +"/" + "static",
