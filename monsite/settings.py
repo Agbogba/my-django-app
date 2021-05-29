@@ -162,6 +162,6 @@ LOGIN_REDIRECT_URL = '/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    '/var/www/static/',
+    '/var/www/skillsindatascience.pythonanywhere.com/static/',
 ]
 
