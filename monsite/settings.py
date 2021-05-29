@@ -134,7 +134,7 @@ STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/
 #STATIC_ROOT = '/home/skillsindatascience/skillsindatascience.pythonanywhere.com/blog/static'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR)
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 #STATICFILES_DIRS = [
