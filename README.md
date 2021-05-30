@@ -1,3 +1,3 @@
 # my-django-app
 
-This code is the backend
+This project is the backend of an e-commerce web application build with Django and hosted by Pythonanywhere Server 
