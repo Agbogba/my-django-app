@@ -1,0 +1,21 @@
+h1 a, h2 a {
+    color: #C25100;
+}
+
+
+body {
+  background-color: #0c4b33;
+  color: #fff;
+  /*background-image: url("download.jpeg");*/
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+
+p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+div {
+  margin: 2rem 0;
+}
